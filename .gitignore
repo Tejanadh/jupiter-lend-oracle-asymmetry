@@ -1,0 +1,6 @@
+node_modules/
+poc/node_modules/
+*.so
+.DS_Store
+.env
+poc/accounts/snapshot.json
