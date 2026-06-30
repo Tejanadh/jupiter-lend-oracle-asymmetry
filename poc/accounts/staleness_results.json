@@ -70,7 +70,7 @@
         "Program log: Instruction: GetExchangeRateOperate",
         "Program log: AnchorError thrown in programs/oracle/src/helper.rs:181. Error Code: PriceTooOld. Error Number: 6001. Error Message: PRICE_TOO_OLD.",
         "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc consumed 4339 of 200000 compute units",
-        "Program jupnw4B6Eqs7fqPzYLJZYSnrpRgPcr589n5Kv4oc failed: custom program error: 0x1771"
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc failed: custom program error: 0x1771"
       ]
     }
   ]
