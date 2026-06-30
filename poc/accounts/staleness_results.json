@@ -1,0 +1,77 @@
+{
+  "ranAt": "2026-06-30T07:51:06.928Z",
+  "results": [
+    {
+      "pair": {
+        "oracle": "DuX7B4gKvXPbBhQGXv4mD5FiFYf8C3EE8Pm5eh42mGiT",
+        "cache": "A2GDb4Um4Tr42iKgPz5fQ2d7pYTnaUuHN3d5V41Cywff",
+        "oracleNonce": 62,
+        "cacheNonce": 3
+      },
+      "baselineOk": true,
+      "staleOk": false,
+      "verdict": "READ_PATH_PROTECTED",
+      "logs": [
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc invoke [1]",
+        "Program log: Instruction: GetExchangeRateOperate",
+        "Program log: AnchorError thrown in programs/oracle/src/helper.rs:181. Error Code: PriceTooOld. Error Number: 6001. Error Message: PRICE_TOO_OLD.",
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc consumed 4339 of 200000 compute units",
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc failed: custom program error: 0x1771"
+      ]
+    },
+    {
+      "pair": {
+        "oracle": "Fa1zDwJrXzZUyoUjmoojPrEQseYSW9M5xy2LmcDPPCHc",
+        "cache": "A4RuZpjfbdzo1fQTqu1ng7kNya1knC2fHSSG5Sv4G4EH",
+        "oracleNonce": 61,
+        "cacheNonce": 2
+      },
+      "baselineOk": true,
+      "staleOk": false,
+      "verdict": "READ_PATH_PROTECTED",
+      "logs": [
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc invoke [1]",
+        "Program log: Instruction: GetExchangeRateOperate",
+        "Program log: AnchorError thrown in programs/oracle/src/helper.rs:181. Error Code: PriceTooOld. Error Number: 6001. Error Message: PRICE_TOO_OLD.",
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc consumed 4339 of 200000 compute units",
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc failed: custom program error: 0x1771"
+      ]
+    },
+    {
+      "pair": {
+        "oracle": "Hxkqy3LBkuUcx3DPGSAaMV4Vfyh5rzX2i4n7yQNwAdTx",
+        "cache": "BJWkdfRiH2Yroomx27VS1TxGxPWcfQoXHMmafBY7apZo",
+        "oracleNonce": 60,
+        "cacheNonce": 1
+      },
+      "baselineOk": true,
+      "staleOk": false,
+      "verdict": "READ_PATH_PROTECTED",
+      "logs": [
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc invoke [1]",
+        "Program log: Instruction: GetExchangeRateOperate",
+        "Program log: AnchorError thrown in programs/oracle/src/helper.rs:181. Error Code: PriceTooOld. Error Number: 6001. Error Message: PRICE_TOO_OLD.",
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc consumed 4339 of 200000 compute units",
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc failed: custom program error: 0x1771"
+      ]
+    },
+    {
+      "pair": {
+        "oracle": "8UJfPZinaPs6C4UKWb6CmeLgTbQThMyB7AJFYCFpHwoi",
+        "cache": "DLuv79r7JPgdF2C266h1kuX8DPhg2amDtaTqz9Zm25w1",
+        "oracleNonce": 63,
+        "cacheNonce": 4
+      },
+      "baselineOk": true,
+      "staleOk": false,
+      "verdict": "READ_PATH_PROTECTED",
+      "logs": [
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc invoke [1]",
+        "Program log: Instruction: GetExchangeRateOperate",
+        "Program log: AnchorError thrown in programs/oracle/src/helper.rs:181. Error Code: PriceTooOld. Error Number: 6001. Error Message: PRICE_TOO_OLD.",
+        "Program jupnw4B6Eqs7ft6rxpzYLJZYSnrpRgPcr589n5Kv4oc consumed 4339 of 200000 compute units",
+        "Program jupnw4B6Eqs7fqPzYLJZYSnrpRgPcr589n5Kv4oc failed: custom program error: 0x1771"
+      ]
+    }
+  ]
+}
