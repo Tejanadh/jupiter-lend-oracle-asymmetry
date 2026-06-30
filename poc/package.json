@@ -1,0 +1,18 @@
+{
+  "name": "jupiter-lend-staleness-poc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch-state": "node scripts/fetch_state.mjs",
+    "test:staleness": "node scripts/staleness_poc.mjs",
+    "test:asymmetry": "node scripts/asymmetry_poc.mjs",
+    "test:both-rates": "node scripts/both_rates_poc.mjs",
+    "test:timestamp-split": "node scripts/timestamp_split_poc.mjs",
+    "test:verifier-strings": "node scripts/verifier_recon.mjs"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.98.0"
+  }
+}
